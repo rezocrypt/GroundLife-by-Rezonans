@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Ground GroundLife-by-Rezonans</title>
+    <link rel="icon" href="icon.png">
+    <style>
+        body {
+            background: green linear-gradient(45deg, black, rgb(255, 0, 212), black) fixed;
+        }
+        #ab {
+            text-align: center;
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 2.5em;
+            margin-top: 1%;
+            margin-bottom: 1%;
+            text-shadow: 4px 0 0 rgb(255, 0, 212), -4px 0 0 rgb(255, 0, 212), 0 4px 0 rgb(255, 0, 212), 0 -4px 0 rgb(255, 0, 212), 2px 2px rgb(255, 0, 212), -2px -2px 0 rgb(255, 0, 212), 2px -2px 0 rgb(255, 0, 212), -2px 2px 0 rgb(255, 0, 212);
+        }
+        #text1{
+            color: white;
+            font-size: 0.8em;
+            text-shadow: 2px 0 0 rgb(255, 0, 212), -2px 0 0 rgb(255, 0, 212), 0 2px 0 rgb(255, 0, 212), 0 -2px 0 rgb(255, 0, 212), 2px 2px rgb(255, 0, 212), -2px -2px 0 rgb(255, 0, 212), 2px -2px 0 rgb(255, 0, 212), -2px 2px 0 rgb(255, 0, 212);
+
+        }
+        #herotext {
+            text-align: center;
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 1.8em;
+            margin-top: 1%;
+            margin-bottom: 1%;
+            text-shadow: 4px 0 0 rgb(255, 0, 212), -4px 0 0 rgb(255, 0, 212), 0 4px 0 rgb(255, 0, 212), 0 -4px 0 rgb(255, 0, 212), 2px 2px rgb(255, 0, 212), -2px -2px 0 rgb(255, 0, 212), 2px -2px 0 rgb(255, 0, 212), -2px 2px 0 rgb(255, 0, 212);
+        }
+        #about1{
+            margin: auto;
+            width: 80%;
+            height: auto;
+            background-color: rgba(255, 255, 255, 0.6);
+            border-radius: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="ab">About Ground Life</h1>
+    <div id="about1">
+        <h3 id="herotext">Heroes</h3>
+        <ul>
+            <li><div style="height: 30px; width: 30px; background-color: green; float: left;"></div><h1>&nbsp&nbsp&nbsp🥦 &nbsp&nbsp&nbsp🤢 &nbsp&nbsp-&nbsp&nbsp       <span id="text1">Grass, it is multiplying in it's 8 neighbours.</span></h1></li>
+            <li><div style="height: 30px; width: 30px; background-color: yellow; float: left;"></div><h1>&nbsp&nbsp&nbsp🐰 &nbsp&nbsp&nbsp😈 &nbsp&nbspo&nbsp&nbsp       <span id="text1">Grass Eater, it is multiplying after five times eating grass and dies after 5 times moveing.</span></h1></li>
+            <li><div style="height: 30px; width: 30px; background-color: red; float: left;"></div><h1>&nbsp&nbsp&nbsp🐯 &nbsp&nbsp&nbsp😡 &nbsp&nbspM&nbsp&nbsp       <span id="text1">Predator, it is'nt multiplying and eating grass , grass eater , and moves</span></h1></li>
+            <li><div style="height: 30px; width: 30px; background-color: grey; float: left;"></div><h1>&nbsp&nbsp&nbsp🧱 &nbsp&nbsp&nbsp🥶 &nbsp&nbsp#&nbsp&nbsp       <span id="text1">Wall, it is not doing anything, just staying in it's place and you can make it with mouse</span></h1></li>
+            <li><div style="height: 30px; width: 30px; background-color: blue; float: left;"></div><h1>&nbsp&nbsp&nbsp🐶 &nbsp&nbsp&nbsp😱 &nbsp&nbsp&&nbsp&nbsp       <span id="text1">Dog, it is going to God and can't eat anything, it's can just move.</span></h1></li>
+            <li><div style="height: 30px; width: 30px; background-color: rgb(255, 16, 240); float: left;"></div><h1>&nbsp&nbsp&nbsp😃 &nbsp&nbsp&nbsp😇 &nbsp&nbsp%&nbsp&nbsp       <span id="text1">God, can eat anything, move everywhere, for activateing and controlling use arrow buttons and dogs are going to God</span></h1></li>
+        </ul>
+    </div>
+    <style>p {font-size:30px; font-family: Arial, Helvetica, sans-serif !important;display:block;margin-top: 20% !important; text-align:center;line-height:100px;height:100px;text-transform:uppercase;letter-spacing:10px-webkit-transition: font-size .5s ease;-moz-transition: font-size .5s ease;-o-transition: font-size .5s ease;transition: font-size .5s ease;}p:hover {font-size: 40px;}a{text-decoration: none !important;color: #000000;}table a:hover{ -webkit-transform: scale(1.9); }</style><a target="blank" href="https://github.com/rezonanscompany"><p>Made by Rezonans</p></a><script>function rand(min, max) {return Math.floor(Math.random() * (max - min + 1)) + min;};function getRandomLetter() {var alphabet = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];return alphabet[rand(0,alphabet.length - 1)];};function getRandomWord(word) {var text = word.innerHTML;var finalWord = '';for(var i=0;i<text.length;i++){finalWord += text[i] == ' ' ? ' ' : getRandomLetter();};return finalWord;};var word = document.querySelector('p');var interv = 'undefined';var canChange = false;var globalCount = 0;var count = 0;var INITIAL_WORD = word.innerHTML;var isGoing = false;function init() {if(isGoing) return;isGoing = true;try {let audio1 = new Audio('typeing.mp3');audio1.play();}catch (error) {console.log();}var randomWord = getRandomWord(word);word.innerHTML = randomWord;interv = setInterval(function() {var finalWord = '';for(var x=0;x<INITIAL_WORD.length;x++) {if(x <= count && canChange) {finalWord += INITIAL_WORD[x];} else {finalWord += getRandomLetter();};};word.innerHTML = finalWord;if(canChange) {count++;};if(globalCount >= 20) {canChange = true;};if(count>=INITIAL_WORD.length) {clearInterval(interv);count = 0;canChange = false;globalCount = 0;isGoing = false;};globalCount++;},50);};word.addEventListener('mouseenter', init);</script>
+
+</body>
+
+</html>
